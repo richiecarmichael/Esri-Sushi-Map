@@ -1,0 +1,219 @@
+﻿/*
+    Copyright 2016 Esri
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/
+
+html, body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 54px;
+    background-color: #2D6CA2;
+}
+
+#heading {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    pointer-events: none;
+}
+
+#bottom {
+    position: absolute;
+    top: 54px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+#map {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#map div.container {
+    max-width: none;
+}
+
+#map-logo {
+    position: absolute;
+    bottom: 0px;
+    right: 3px;
+}
+
+#sushi {
+    position: absolute;
+    left: -100px;
+    top: 0px;
+    width: 419px;
+    height: 193px;
+    background-image: url('img/sushi.png');
+    background-size: 419px 193px;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+.rc-fish-button {
+    position: absolute;
+    top: 0px;
+    width: 75px;
+    height: 54px;
+    cursor: pointer;
+}
+
+.rc-fish-button.active,
+.rc-fish-button.active:hover {
+    background-color: #ff6a00;
+}
+
+.rc-fish-button:hover {
+    background-color: #728ca3;
+}
+
+#button-bluefin {
+    right: 150px;
+}
+
+#button-mahi {
+    right: 75px;
+}
+
+#button-yellowfin {
+    right: 0px;
+}
+
+.rc-fish-button-icon {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 75px;
+    height: 54px;
+    background-position: center center;
+    background-size: 60px auto;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+#button-bluefin-icon {
+    background-image: url('img/bluefin.png');
+}
+
+#button-mahi-icon {
+    background-image: url('img/mahi.png');
+}
+
+#button-yellowfin-icon {
+    background-image: url('img/yellowfin.png');
+}
+
+.rc-panel {
+    position: absolute;
+    top: 54px;
+    right: 0px;
+    width: 225px;
+    height: 400px;
+    background-color: #ff6a00;
+    display: none;
+}
+
+.rc-panel-heading {
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    right: 0px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    pointer-events: none;
+}
+
+.rc-panel-description {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 50px;
+    bottom: 50px;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#slider-bluefin1-internal,
+#slider-mahi1-internal,
+#slider-yellowfin1-internal {
+    position: absolute;
+    bottom: 65px;
+    left: 20px;
+    width: 150px;
+}
+
+#slider-bluefin2-internal,
+#slider-mahi2-internal,
+#slider-yellowfin2-internal {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    width: 150px;
+}
+
+.rc-heading-date,
+.rc-heading-depth {
+    position: absolute;
+    left: 5px;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.rc-heading-date {
+    bottom: 90px;
+}
+
+.rc-heading-depth {
+    bottom: 35px;
+}
+
+.rc-value-date,
+.rc-value-depth {
+    position: absolute;
+    left: 175px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.rc-value-date {
+    bottom: 65px;
+}
+
+.rc-value-depth {
+    bottom: 10px;
+}
