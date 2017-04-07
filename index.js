@@ -39,7 +39,7 @@ function (
 
         // Application constants
         var BASEMAP = 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer';
-        var SUSHI = 'https://maps2.esri.com/apl1/rest/services/rc/HYCOM_Sushi_cached/ImageServer';
+        var SUSHI = 'https://maps.esri.com/apl1/rest/services/rc/HYCOM_Sushi_cached/ImageServer';
         var BLUEFIN_FXN = 'habitat_suitability_bluefin';
         var MAHI_FXN = 'habitat_suitability_mahi';
         var YELLOWFIN_FXN = 'habitat_suitability_yellowfin';
